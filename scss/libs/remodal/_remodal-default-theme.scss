@@ -1,0 +1,217 @@
+/*
+ *  Remodal - v1.1.1
+ *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+ *  http://vodkabears.github.io/remodal/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
+
+/* ==========================================================================
+   Remodal's default mobile first theme
+   ========================================================================== */
+.remodal-bg {
+  transition: filter $transition-speed $transition-type, transform $transition-speed $transition-type;
+  //will-change: transform, filter;
+}
+
+/* Default theme styles for the background */
+.remodal-bg.remodal-is-opening,
+.remodal-bg.remodal-is-opened {
+  filter: blur(5px);
+  transform: scale(.96);
+
+  .background--texture {
+    opacity:0;
+  }
+
+}
+
+// Turn off the background textures
+/*
+.remodal-is-opened {
+  .background--texture {
+    display:none;
+  }
+}
+*/
+
+/* Default theme styles of the overlay */
+.remodal-overlay {
+  background: rgba($black, 0.9);
+}
+
+.remodal-overlay.remodal-is-opening,
+.remodal-overlay.remodal-is-closing {
+  animation-duration: $transition-speed;
+  animation-fill-mode: forwards;
+}
+
+.remodal-overlay.remodal-is-opening {
+  animation-name: remodal-overlay-opening-keyframes;
+}
+
+.remodal-overlay.remodal-is-closing {
+  animation-name: remodal-overlay-closing-keyframes;
+}
+
+/* Default theme styles of the wrapper */
+.remodal-wrapper {
+  padding: 16px;
+}
+
+.remodal-content {
+  width: 78%;
+  float: right;
+  margin-top: 10%;
+  text-align: left;
+
+  @include grid-media($grid-tablet) {
+    width: 86%;
+    margin-top: 8%;
+    float: none;
+  }
+
+  @include grid-media($grid-mobile) {
+    width: 92%;
+    margin-top: 4%;
+    float: none;
+  }
+
+  // Cap the height tweaks for this breakpoint
+  @include grid-media($grid-mobile-height) {
+    width: 96%;
+    margin-top: 2%;
+    float: none;
+  }
+}
+
+/* Default theme styles of the modal dialog */
+.remodal {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 32px;
+  transform: translate3d(0, 0, 0);
+  color: $primary-color;
+  background: $background-color-bottom;
+  box-shadow: $image-shadow;
+
+  @include grid-media($grid-tablet) {
+    padding: 28px;
+  }
+
+  @include grid-media($grid-mobile) {
+    padding: 24px;
+  }
+}
+
+.remodal.remodal-is-opening,
+.remodal.remodal-is-closing {
+  animation-duration: $transition-speed;
+  animation-fill-mode: forwards;
+}
+
+.remodal.remodal-is-opening {
+  animation-name: remodal-opening-keyframes;
+}
+
+.remodal.remodal-is-closing {
+  animation-name: remodal-closing-keyframes;
+}
+
+/* Vertical align of the modal dialog */
+.remodal,
+.remodal-wrapper:after {
+  vertical-align: middle;
+}
+
+/* Close button */
+.remodal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  overflow: visible;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: color $transition-speed;
+  text-decoration: none;
+  color: #95979c;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+.remodal-close:hover,
+.remodal-close:focus {
+  color: $black;
+}
+
+.remodal-close:before {
+  font-family: 'Dosis', sans-serif;
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 40px;
+  content: "\00d7";
+  text-align: center;
+}
+
+/* Keyframes
+   ========================================================================== */
+@keyframes remodal-opening-keyframes {
+  from {
+    transform: scale(1.06);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes remodal-closing-keyframes {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.06);
+    opacity: 0;
+    filter: blur(0);
+  }
+}
+
+@keyframes remodal-overlay-opening-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes remodal-overlay-closing-keyframes {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Media queries
+   ========================================================================== */
+@media only screen and (min-width: $mobile-breakpoint ) {
+  .remodal {
+    max-width: $mobile-breakpoint;
+  }
+}

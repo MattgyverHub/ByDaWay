@@ -1,0 +1,52 @@
+/* ************************************************************************ */
+/* Google */
+/* ************************************************************************ */
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,400,800');
+
+$font-primary: 'Dosis', sans-serif;
+
+// Primary font
+// Usage: @include dosis(400, $white, 2.4rem, 1.2rem);
+@mixin dosis($font-weight:400, $font-color:"$white", $font-size:2.4rem, $font-lineheight:inherit) {
+  font-family: $font-primary;
+  font-weight: $font-weight;
+  color: $font-color;
+  font-size: $font-size;
+  line-height: $font-lineheight;
+}
+
+
+/* ************************************************************************ */
+/* Typography */
+/* ************************************************************************ */
+
+// Body defaults
+body {
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Dosis', sans-serif;
+}
+
+p {
+  @include dosis(400, $primary-color, 1.2rem, 1.6rem);
+}
+
+h2, .h2 {
+  @include dosis(800, $primary-color, 1.6rem, 2.4rem);
+}
+
+// Links - Use the link color and roll over to the secondary color
+a {
+  color: $primary-color;
+	text-decoration: none;
+  transition: color $transition-speed $transition-type;
+
+	&:active, &:hover, &:focus {
+      color: lighten($primary-color, 10%);
+  }
+
+	&:active, &:focus {
+      outline: none;
+      background-color: transparent;
+  }
+}

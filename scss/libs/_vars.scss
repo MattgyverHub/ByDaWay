@@ -1,0 +1,752 @@
+/* ************************************************************************ */
+/* Variables */
+/* ************************************************************************ */
+
+// Colors and gradients
+$white : #fefefe !default;
+$black : #333333 !default;
+
+// Social media colors
+$instagram : #fb3958 !default;
+$twitter : #4099FF !default;
+
+$primary-color : #434343 !default;
+$background-color-top : #fdfbfb !default;
+$background-color-bottom : #ebedee !default;
+
+// Shadows and other visuals
+$title-shadow: 0 5px 40px -2px transparentize($black, .90);
+$image-shadow: 0 60px 160px -40px transparentize($black, .90);
+
+// Timings
+$transition-type : cubic-bezier(.5,.35,.28,1) !default;
+$transition-speed : .75s !default;
+
+// Misc paddings and more
+$padding-side : 4rem;
+
+// Possibly pull the CSS vars into one class instead of writing all the classes out
+// https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+// Would potentially save about 200k, but have to rethink the background gradient crossfade
+/*
+:root {
+   --primary-color: $primary-color;
+   --background-color-top: $background-color-top;
+   --background-color-bottom: $background-color-bottom;
+}
+*/
+
+/* ************************************************************************ */
+// Build the colors used for each palette
+/* ************************************************************************ */
+/* Usage:
+
+.color--128-plum-bath {
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+*/
+@mixin setcolors($p:$primary-color, $t:$background-color-top, $b:$background-color-bottom) {
+
+
+  // Set the base background style for the .classname
+  background: linear-gradient(165deg, $t 0%, $b 100%) $t;
+
+  // Logo color overrides
+  & .sprout-logo--crown,
+  & .sprout-logo--brusselsprout,
+  & .sprout-logo--king,
+  & .sprout-logo--name {
+    fill: $b;
+  }
+
+  // Quote counter overrides
+  & .quote-display--current,
+  & .quote-display--total {
+    color: $p;
+  }
+
+  // The little angled line dividing the X / X
+  & .quote-display--total {
+    &:before {
+      //border-left-color: rgba( $p, .65 );
+      border-left-color: $p;
+    }
+  }
+
+  // Links
+  & .quote-display--random,
+  & .quote-display--previous {
+    a {
+      color: $b;
+      //color: $l;
+
+      &:hover, &:focus {
+        color: $p;
+      }
+    }
+
+    &:after {
+      border-bottom-color: $b;
+    }
+  }
+
+  & .quote-display--line {
+    border-bottom-color: $b;
+  }
+
+  & .quote-display--next {
+    a {
+      color: $b;
+      //color: $l;
+
+      &:hover, &:focus {
+        color: $p;
+      }
+    }
+  }
+
+  // Main quote overrides - main quote and huge background quote
+  & .quote-text--small,
+  & .quote-text--by-da-way {
+    color: $p;
+  }
+
+  & .quote-text--large {
+    color: $b;
+  }
+
+  // Info dot link overrides
+  & .quote--info {
+    background-color: $t;
+
+    &:hover, &:focus {
+      background-color: darken($t, 6%);
+    }
+
+    a {
+      color: $b;
+    }
+  }
+
+  // Social media icon overrides
+  & .socks--insta svg path,
+  & .socks--insta svg circle,
+  & .socks--twit svg path {
+    color: $b;
+    fill: $b;
+  }
+
+  // Vertical linear
+  & .vertical-line {
+    &:after {
+      border-right-color: $b;
+    }
+  }
+
+  // Modal
+  & .remodal {
+    background: linear-gradient(165deg, $t 0%, $b 100%) $t;
+    box-shadow: 0 60px 160px -40px transparentize(darken($t, 16%), .04);
+  }
+
+  & .remodal h2,
+  & .remodal p {
+    color: $p;
+  }
+
+  & .remodal-close {
+    color: $t;
+
+    &:hover, &:focus {
+      color: $p;
+    }
+  }
+
+  & .remodal-overlay {
+    background: transparentize(darken($b, 12%), .75);
+  }
+
+}
+
+
+// Gradients and color system inheritance applied to the page body
+// These change depending on the active quote.
+// https://webgradients.com/
+
+// Defaults
+body {
+  //@include setcolors();
+}
+
+/* ************************************************************************ */
+// Determine a light or dark color based on the background value
+/* ************************************************************************ */
+
+/*
+@function set-notification-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000000; // Lighter backgorund, return dark color
+  } @else {
+    @return #ffffff; // Darker background, return light color
+  }
+}
+*/
+
+/*
+%notification {
+  border-radius: 10px;
+  display: block;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  padding: 1em 2em;
+  margin: 1em auto;
+  width: 30%;
+  text-align: center;
+}
+
+.notification {
+  @extend %notification;
+}
+.notification-confirm {
+  background: $notification-confirm;
+  color: set-notification-text-color($notification-confirm);
+}
+*/
+
+/* ************************************************************************ */
+// Adjust the two background gradients and set a primary color
+// https://webgradients.com/
+/* ************************************************************************ */
+
+.color--001-warm-flame {
+  $primary-color : #47210b;
+  $background-color-top : #833701;
+  $background-color-bottom : #ffeba0;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--002-night-fade {
+//   $primary-color : #375266;
+//   $background-color-top : #a18cd1;
+//   $background-color-bottom : #fbc2eb;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--003-spring-warmth {
+//   $primary-color : #3f393d;
+//   $background-color-top : #eaa190;
+//   $background-color-bottom : #fad0c4;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--004-juicy-peach {
+//   $primary-color : #787b62;
+//   $background-color-top : #fcb69f;
+//   $background-color-bottom : #ffecd2;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--005-young-passion {
+  $primary-color : #e9f7e8;
+  $background-color-top : #730720;
+  $background-color-bottom : #ff8177;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--006-lady-lips {
+  $primary-color : #c40040;
+  $background-color-top : #d5383e;
+  $background-color-bottom : #fecfef;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--007-sunny-morning {
+//   $primary-color : #544942;
+//   $background-color-top : #fda085;
+//   $background-color-bottom : #f6d365;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--008-rainy-ashville {
+//   $primary-color : #7a4c75;
+//   $background-color-top : #a6c1ee;
+//   $background-color-bottom : #fbc2eb;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--010-winter-neva {
+//   $primary-color : #424343;
+//   $background-color-top : #a1c4fd;
+//   $background-color-bottom : #c2e9fb;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--011-dusty-grass {
+  $primary-color : #63180c;
+  $background-color-top : #63a04a;
+  $background-color-bottom : #e2f28b;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--012-tempting-azure {
+  $primary-color : #e30c6f;
+  $background-color-top : #3d8fb7;
+  $background-color-bottom : #84fab0;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--013-heavy-rain {
+//   $primary-color : #387ee6;
+//   $background-color-top : #cfd9df;
+//   $background-color-bottom : #e2ebf0;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--014-amy-crisp {
+//   $primary-color : #fff5fb;
+//   $background-color-top : #a6c0fe;
+//   $background-color-bottom : #f68084;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--014-mean-fruit {
+  $primary-color : #631561;
+  $background-color-top : #325e01;
+  $background-color-bottom : #c0fffc;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--017-ripe-malinka {
+  $primary-color : #fffdb0;
+  $background-color-top : #b31b37;
+  $background-color-bottom : #f093fb;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--018-cloudy-knoxville {
+//   $primary-color : #715b45;
+//   $background-color-top : #d8dcde;
+//   $background-color-bottom : #fdfbfb;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--019-malibu-beach {
+//   $primary-color : #062c35;
+//   $background-color-top : #4facfe;
+//   $background-color-bottom : #00f2fe;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--021-true-sunset {
+  $primary-color : #ca0808;
+  $background-color-top : #f04545;
+  $background-color-bottom : #fee140;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--022-morpheus-den {
+  $primary-color : #f3fcfc;
+  $background-color-top : #330867;
+  $background-color-bottom : #30cfd0;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--024-near-moon {
+//   $primary-color : #611962;
+//   $background-color-top : #b490ca;
+//   $background-color-bottom : #5ee7df;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--025-wild-apple {
+  $primary-color : #014900;
+  $background-color-top : #d37a7a;
+  $background-color-bottom : #fcffd1;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--026-saint-petersburg {
+  $primary-color : #ba0202;
+  $background-color-top : #8fa0bb;
+  $background-color-bottom : #f3f6fa;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--027-ariels-smile {
+//   $primary-color : #ffffff;
+//   $background-color-top : #46aef7;
+//   $background-color-bottom : #16d9e3;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--028-plum-plate {
+  $primary-color : #ffc1ef;
+  $background-color-top : #350c5e;
+  $background-color-bottom : #3c84f0;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--029-everlasting-sky {
+  $primary-color : #4d1b08;
+  $background-color-top : #dbb494;
+  $background-color-bottom : #fdfcfb;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--031-blessing {
+//   $primary-color : #222222;
+//   $background-color-top : #d1fdff;
+//   $background-color-bottom : #fddb92;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--032-sharpeye-eagle {
+//   $primary-color : #222222;
+//   $background-color-top : #b1f4cf;
+//   $background-color-bottom : #9890e3;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--033-ladoga-bottom {
+//   $primary-color : #222222;
+//   $background-color-top : #ebc0fd;
+//   $background-color-bottom : #d9ded8;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--034-lemon-gate {
+  $primary-color : #0b2a07;
+  $background-color-top : #22a05c;
+  $background-color-bottom : #f9f586;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--035-get-me-out {
+  $primary-color : #1b2e51;
+  $background-color-top : #0077bf;
+  $background-color-bottom : #2af598;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--036-zeus-miracle {
+  $primary-color : #4f214c;
+  $background-color-top : #cd4fec;
+  $background-color-bottom : #f6f3ff;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--038-star-wine {
+//   $primary-color : #222222;
+//   $background-color-top : #b465da;
+//   $background-color-bottom : #ee609c;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--039-deep-blue {
+//   $primary-color : #f5f7e5;
+//   $background-color-top : #6a11cb;
+//   $background-color-bottom : #2575fc;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--040-coup {
+//   $primary-color : #0964c1;
+//   $background-color-top : #aba08e;
+//   $background-color-bottom : #DCD9D4;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--041-happy-acid {
+  $primary-color : #160d30;
+  $background-color-top : #193ea8;
+  $background-color-bottom : #1effc1;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--043-new-york {
+//   $primary-color : #222222;
+//   $background-color-top : #fff1eb;
+//   $background-color-bottom : #ace0f9;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--045-loon-crest {
+  $primary-color : #201e1c;
+  $background-color-top : #1f231c;
+  $background-color-bottom : #fff2e5;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--046-mixed-hopes {
+//   $primary-color : #222222;
+//   $background-color-top : #c471f5;
+//   $background-color-bottom : #fa71cd;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--047-fly-high {
+//   $primary-color : #222222;
+//   $background-color-top : #48c6ef;
+//   $background-color-bottom : #6f86d6;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--049-fresh-milk {
+  $primary-color : #041f2c;
+  $background-color-top : #ee847a;
+  $background-color-bottom : #f5efef;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--051-february-ink {
+//   $primary-color : #222222;
+//   $background-color-top : #accbee;
+//   $background-color-bottom : #e7f0fd;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--052-kind-steel {
+//   $primary-color : #222222;
+//   $background-color-top : #e9defa;
+//   $background-color-bottom : #fbfcdb;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--053-soft-grass {
+//   $primary-color : #222222;
+//   $background-color-top : #c1dfc4;
+//   $background-color-bottom : #deecdd;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--054-grown-early {
+//   $primary-color : #ebffd0;
+//   $background-color-top : #256b32;
+//   $background-color-bottom : #12ad62;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--055-sharp-blues {
+//   $primary-color : #222222;
+//   $background-color-top : #005bea;
+//   $background-color-bottom : #00c6fb;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--057-dirty-beauty {
+//   $primary-color : #222222;
+//   $background-color-top : #6a85b6;
+//   $background-color-bottom : #bac8e0;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--058-great-whale {
+//   $primary-color : #222222;
+//   $background-color-top : #6991c7;
+//   $background-color-bottom : #a3bded;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--060-polite-rumors {
+//   $primary-color : #222222;
+//   $background-color-top : #8989ba;
+//   $background-color-bottom : #a7a6cb;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--059-teen-notebook {
+  $primary-color : #160d18;
+  $background-color-top : #4341ba;
+  $background-color-bottom : #ffa6f0;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--063-soft-cherish {
+  $primary-color : #e6ff6c;
+  $background-color-top : #1c1a27;
+  $background-color-bottom : #bc117c;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--064-red-salvation {
+  $primary-color : #fff8fa;
+  $background-color-top : #342b77;
+  $background-color-bottom : #ff2b39;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--066-night-party {
+//   $primary-color : #dcf6fb;
+//   $background-color-top : #0250c5;
+//   $background-color-bottom : #d43f8d;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--069-purple-division {
+//   $primary-color : #222222;
+//   $background-color-top : #7028e4;
+//   $background-color-bottom : #e5b2ca;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--070-aqua-squash {
+  $primary-color : #f6ff72;
+  $background-color-top : #064062;
+  $background-color-bottom : #80d0c7;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--072-spiky-naga {
+//   $primary-color : #e7fffe;
+//   $background-color-top : #5643d3;
+//   $background-color-bottom : #9795d4;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--073-love-kiss {
+  $primary-color : #420202;
+  $background-color-top : #ff0844;
+  $background-color-bottom : #edb2a0;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--076-premium-dark {
+  $primary-color : #ffffff;
+  $background-color-top : #141111;
+  $background-color-bottom : #7a7474;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--077-cold-evening {
+//   $primary-color : #222222;
+//   $background-color-top : #0c3483;
+//   $background-color-bottom : #a2b6df;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--082-dessert-hump {
+//   $primary-color : #222222;
+//   $background-color-top : #c79081;
+//   $background-color-bottom : #dfa579;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--084-phoenix-start {
+//   $primary-color : #222222;
+//   $background-color-top : #f83600;
+//   $background-color-bottom : #f9d423;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--087-alchemy-lab {
+  $primary-color : #f9ffe1;
+  $background-color-top : #7721a4;
+  $background-color-bottom : #24d292;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--095-big-mango {
+  $primary-color : #f0fa99;
+  $background-color-top : #b80d60;
+  $background-color-bottom : #ffbd5b;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--096-healthy-water {
+//   $primary-color : #c6ff6c;
+//   $background-color-top : #50c9c3;
+//   $background-color-bottom : #96deda;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--099-strong-stick {
+//   $primary-color : #c6ff6c;
+//   $background-color-top : #5d4157;
+//   $background-color-bottom : #a8caba;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--100-vicious-stance {
+//   $primary-color : #c6ff6c;
+//   $background-color-top : #29323c;
+//   $background-color-bottom : #485563;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--102-happy-memories {
+//   $primary-color : #c6ff6c;
+//   $background-color-top : #ff5858;
+//   $background-color-bottom : #f09819;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--108-le-cocktail {
+//   $primary-color : #c6ff6c;
+//   $background-color-top : #c43a30;
+//   $background-color-bottom : #874da2;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--114-new-retroweave {
+//   $primary-color : #c6ff6c;
+//   $background-color-top : #3b41c5;
+//   $background-color-bottom : #ffc8a9;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--118-dense-water {
+  $primary-color : #baff4c;
+  $background-color-top : #4d1781;
+  $background-color-bottom : #15b6b0;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--128-plum-bath {
+//   $primary-color : #fefefe;
+//   $background-color-top : #4b0248;
+//   $background-color-bottom : #be4748;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--146-juicy-cake {
+  $primary-color : #fefefe;
+  $background-color-top : #e822a1;
+  $background-color-bottom : #f9d423;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+// .color--162-perfect-white {
+//   $primary-color : #222222;
+//   $background-color-top : #f0c8e8;
+//   $background-color-bottom : #E3FDF5;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+// .color--175-magic-ray {
+//   $primary-color : #fefefe;
+//   $background-color-top : #2B86C5;
+//   $background-color-bottom : #FF3CAC;
+//   @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+// }
+
+.color--179-fabled-sunset {
+  $primary-color : #fefefe;
+  $background-color-top : #231557;
+  $background-color-bottom : #FF1361;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--200-favre-packers {
+  $primary-color : #FFB81C;
+  $background-color-top : #183028;
+  $background-color-bottom : #099969;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}
+
+.color--201-coke {
+  $primary-color : #fff3f3;
+  $background-color-top : #490000;
+  $background-color-bottom : #e10d0d;
+  @include setcolors($primary-color, $background-color-top, $background-color-bottom);
+}

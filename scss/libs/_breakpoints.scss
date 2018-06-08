@@ -1,0 +1,22 @@
+/* ************************************************************************ */
+/* Breakpoints */
+/* ************************************************************************ */
+$mobile-breakpoint: 660px;
+$tablet-breakpoint: 992px;
+$critical-height: 580px;
+
+$grid-mobile: (
+  media: "(max-width: " + ($mobile-breakpoint - 1) + ")",
+);
+
+$grid-tablet: (
+  media: "(min-width: " + $mobile-breakpoint + ") and (max-width: " + ($tablet-breakpoint - 1) + ")",
+);
+
+$grid-small-screens: (
+  media: "(max-width: " + ($tablet-breakpoint - 1) + ")",
+);
+
+$grid-mobile-height: (
+  media: "(max-height: " + $critical-height + ")",
+);
