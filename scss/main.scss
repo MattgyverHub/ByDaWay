@@ -303,6 +303,20 @@ html, body {
   }
 }
 
+.socks--git svg {
+
+  path {
+    color: $background-color-bottom;
+    fill: $background-color-bottom;
+    transition: color $transition-speed $transition-type, fill $transition-speed $transition-type;
+  }
+
+  &:hover path {
+    color: $github;
+    fill: $github;
+  }
+}
+
 .vertical-line {
   &:after {
     content: "";

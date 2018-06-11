@@ -9,6 +9,7 @@ $black : #333333 !default;
 // Social media colors
 $instagram : #fb3958 !default;
 $twitter : #4099FF !default;
+$github : #4078c0 !default;
 
 $primary-color : #434343 !default;
 $background-color-top : #fdfbfb !default;
@@ -130,9 +131,10 @@ $padding-side : 4rem;
   }
 
   // Social media icon overrides
-  & .socks--insta svg path,
-  & .socks--insta svg circle,
-  & .socks--twit svg path {
+  //& .socks--insta svg path,
+  //& .socks--insta svg circle,
+  & .socks--twit svg path,
+  & .socks--git svg path {
     color: $b;
     fill: $b;
   }

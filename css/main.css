@@ -500,9 +500,8 @@ template {
       background-color: #652a01; }
     .color--001-warm-flame .quote--info a {
       color: #ffeba0; }
-  .color--001-warm-flame .socks--insta svg path,
-  .color--001-warm-flame .socks--insta svg circle,
-  .color--001-warm-flame .socks--twit svg path {
+  .color--001-warm-flame .socks--twit svg path,
+  .color--001-warm-flame .socks--git svg path {
     color: #ffeba0;
     fill: #ffeba0; }
   .color--001-warm-flame .vertical-line:after {
@@ -560,9 +559,8 @@ template {
       background-color: #560518; }
     .color--005-young-passion .quote--info a {
       color: #ff8177; }
-  .color--005-young-passion .socks--insta svg path,
-  .color--005-young-passion .socks--insta svg circle,
-  .color--005-young-passion .socks--twit svg path {
+  .color--005-young-passion .socks--twit svg path,
+  .color--005-young-passion .socks--git svg path {
     color: #ff8177;
     fill: #ff8177; }
   .color--005-young-passion .vertical-line:after {
@@ -620,9 +618,8 @@ template {
       background-color: #c52a2f; }
     .color--006-lady-lips .quote--info a {
       color: #fecfef; }
-  .color--006-lady-lips .socks--insta svg path,
-  .color--006-lady-lips .socks--insta svg circle,
-  .color--006-lady-lips .socks--twit svg path {
+  .color--006-lady-lips .socks--twit svg path,
+  .color--006-lady-lips .socks--git svg path {
     color: #fecfef;
     fill: #fecfef; }
   .color--006-lady-lips .vertical-line:after {
@@ -680,9 +677,8 @@ template {
       background-color: #568b40; }
     .color--011-dusty-grass .quote--info a {
       color: #e2f28b; }
-  .color--011-dusty-grass .socks--insta svg path,
-  .color--011-dusty-grass .socks--insta svg circle,
-  .color--011-dusty-grass .socks--twit svg path {
+  .color--011-dusty-grass .socks--twit svg path,
+  .color--011-dusty-grass .socks--git svg path {
     color: #e2f28b;
     fill: #e2f28b; }
   .color--011-dusty-grass .vertical-line:after {
@@ -740,9 +736,8 @@ template {
       background-color: #357da0; }
     .color--012-tempting-azure .quote--info a {
       color: #84fab0; }
-  .color--012-tempting-azure .socks--insta svg path,
-  .color--012-tempting-azure .socks--insta svg circle,
-  .color--012-tempting-azure .socks--twit svg path {
+  .color--012-tempting-azure .socks--twit svg path,
+  .color--012-tempting-azure .socks--git svg path {
     color: #84fab0;
     fill: #84fab0; }
   .color--012-tempting-azure .vertical-line:after {
@@ -800,9 +795,8 @@ template {
       background-color: #224001; }
     .color--014-mean-fruit .quote--info a {
       color: #c0fffc; }
-  .color--014-mean-fruit .socks--insta svg path,
-  .color--014-mean-fruit .socks--insta svg circle,
-  .color--014-mean-fruit .socks--twit svg path {
+  .color--014-mean-fruit .socks--twit svg path,
+  .color--014-mean-fruit .socks--git svg path {
     color: #c0fffc;
     fill: #c0fffc; }
   .color--014-mean-fruit .vertical-line:after {
@@ -860,9 +854,8 @@ template {
       background-color: #98172f; }
     .color--017-ripe-malinka .quote--info a {
       color: #f093fb; }
-  .color--017-ripe-malinka .socks--insta svg path,
-  .color--017-ripe-malinka .socks--insta svg circle,
-  .color--017-ripe-malinka .socks--twit svg path {
+  .color--017-ripe-malinka .socks--twit svg path,
+  .color--017-ripe-malinka .socks--git svg path {
     color: #f093fb;
     fill: #f093fb; }
   .color--017-ripe-malinka .vertical-line:after {
@@ -920,9 +913,8 @@ template {
       background-color: #ee2929; }
     .color--021-true-sunset .quote--info a {
       color: #fee140; }
-  .color--021-true-sunset .socks--insta svg path,
-  .color--021-true-sunset .socks--insta svg circle,
-  .color--021-true-sunset .socks--twit svg path {
+  .color--021-true-sunset .socks--twit svg path,
+  .color--021-true-sunset .socks--git svg path {
     color: #fee140;
     fill: #fee140; }
   .color--021-true-sunset .vertical-line:after {
@@ -980,9 +972,8 @@ template {
       background-color: #25064b; }
     .color--022-morpheus-den .quote--info a {
       color: #30cfd0; }
-  .color--022-morpheus-den .socks--insta svg path,
-  .color--022-morpheus-den .socks--insta svg circle,
-  .color--022-morpheus-den .socks--twit svg path {
+  .color--022-morpheus-den .socks--twit svg path,
+  .color--022-morpheus-den .socks--git svg path {
     color: #30cfd0;
     fill: #30cfd0; }
   .color--022-morpheus-den .vertical-line:after {
@@ -1040,9 +1031,8 @@ template {
       background-color: #cb6363; }
     .color--025-wild-apple .quote--info a {
       color: #fcffd1; }
-  .color--025-wild-apple .socks--insta svg path,
-  .color--025-wild-apple .socks--insta svg circle,
-  .color--025-wild-apple .socks--twit svg path {
+  .color--025-wild-apple .socks--twit svg path,
+  .color--025-wild-apple .socks--git svg path {
     color: #fcffd1;
     fill: #fcffd1; }
   .color--025-wild-apple .vertical-line:after {
@@ -1100,9 +1090,8 @@ template {
       background-color: #7c90af; }
     .color--026-saint-petersburg .quote--info a {
       color: #f3f6fa; }
-  .color--026-saint-petersburg .socks--insta svg path,
-  .color--026-saint-petersburg .socks--insta svg circle,
-  .color--026-saint-petersburg .socks--twit svg path {
+  .color--026-saint-petersburg .socks--twit svg path,
+  .color--026-saint-petersburg .socks--git svg path {
     color: #f3f6fa;
     fill: #f3f6fa; }
   .color--026-saint-petersburg .vertical-line:after {
@@ -1160,9 +1149,8 @@ template {
       background-color: #260943; }
     .color--028-plum-plate .quote--info a {
       color: #3c84f0; }
-  .color--028-plum-plate .socks--insta svg path,
-  .color--028-plum-plate .socks--insta svg circle,
-  .color--028-plum-plate .socks--twit svg path {
+  .color--028-plum-plate .socks--twit svg path,
+  .color--028-plum-plate .socks--git svg path {
     color: #3c84f0;
     fill: #3c84f0; }
   .color--028-plum-plate .vertical-line:after {
@@ -1220,9 +1208,8 @@ template {
       background-color: #d3a47d; }
     .color--029-everlasting-sky .quote--info a {
       color: #fdfcfb; }
-  .color--029-everlasting-sky .socks--insta svg path,
-  .color--029-everlasting-sky .socks--insta svg circle,
-  .color--029-everlasting-sky .socks--twit svg path {
+  .color--029-everlasting-sky .socks--twit svg path,
+  .color--029-everlasting-sky .socks--git svg path {
     color: #fdfcfb;
     fill: #fdfcfb; }
   .color--029-everlasting-sky .vertical-line:after {
@@ -1280,9 +1267,8 @@ template {
       background-color: #1d874d; }
     .color--034-lemon-gate .quote--info a {
       color: #f9f586; }
-  .color--034-lemon-gate .socks--insta svg path,
-  .color--034-lemon-gate .socks--insta svg circle,
-  .color--034-lemon-gate .socks--twit svg path {
+  .color--034-lemon-gate .socks--twit svg path,
+  .color--034-lemon-gate .socks--git svg path {
     color: #f9f586;
     fill: #f9f586; }
   .color--034-lemon-gate .vertical-line:after {
@@ -1340,9 +1326,8 @@ template {
       background-color: #0064a0; }
     .color--035-get-me-out .quote--info a {
       color: #2af598; }
-  .color--035-get-me-out .socks--insta svg path,
-  .color--035-get-me-out .socks--insta svg circle,
-  .color--035-get-me-out .socks--twit svg path {
+  .color--035-get-me-out .socks--twit svg path,
+  .color--035-get-me-out .socks--git svg path {
     color: #2af598;
     fill: #2af598; }
   .color--035-get-me-out .vertical-line:after {
@@ -1400,9 +1385,8 @@ template {
       background-color: #c533e9; }
     .color--036-zeus-miracle .quote--info a {
       color: #f6f3ff; }
-  .color--036-zeus-miracle .socks--insta svg path,
-  .color--036-zeus-miracle .socks--insta svg circle,
-  .color--036-zeus-miracle .socks--twit svg path {
+  .color--036-zeus-miracle .socks--twit svg path,
+  .color--036-zeus-miracle .socks--git svg path {
     color: #f6f3ff;
     fill: #f6f3ff; }
   .color--036-zeus-miracle .vertical-line:after {
@@ -1460,9 +1444,8 @@ template {
       background-color: #15348d; }
     .color--041-happy-acid .quote--info a {
       color: #1effc1; }
-  .color--041-happy-acid .socks--insta svg path,
-  .color--041-happy-acid .socks--insta svg circle,
-  .color--041-happy-acid .socks--twit svg path {
+  .color--041-happy-acid .socks--twit svg path,
+  .color--041-happy-acid .socks--git svg path {
     color: #1effc1;
     fill: #1effc1; }
   .color--041-happy-acid .vertical-line:after {
@@ -1520,9 +1503,8 @@ template {
       background-color: #10120e; }
     .color--045-loon-crest .quote--info a {
       color: #fff2e5; }
-  .color--045-loon-crest .socks--insta svg path,
-  .color--045-loon-crest .socks--insta svg circle,
-  .color--045-loon-crest .socks--twit svg path {
+  .color--045-loon-crest .socks--twit svg path,
+  .color--045-loon-crest .socks--git svg path {
     color: #fff2e5;
     fill: #fff2e5; }
   .color--045-loon-crest .vertical-line:after {
@@ -1580,9 +1562,8 @@ template {
       background-color: #eb6b5f; }
     .color--049-fresh-milk .quote--info a {
       color: #f5efef; }
-  .color--049-fresh-milk .socks--insta svg path,
-  .color--049-fresh-milk .socks--insta svg circle,
-  .color--049-fresh-milk .socks--twit svg path {
+  .color--049-fresh-milk .socks--twit svg path,
+  .color--049-fresh-milk .socks--git svg path {
     color: #f5efef;
     fill: #f5efef; }
   .color--049-fresh-milk .vertical-line:after {
@@ -1640,9 +1621,8 @@ template {
       background-color: #3b39a3; }
     .color--059-teen-notebook .quote--info a {
       color: #ffa6f0; }
-  .color--059-teen-notebook .socks--insta svg path,
-  .color--059-teen-notebook .socks--insta svg circle,
-  .color--059-teen-notebook .socks--twit svg path {
+  .color--059-teen-notebook .socks--twit svg path,
+  .color--059-teen-notebook .socks--git svg path {
     color: #ffa6f0;
     fill: #ffa6f0; }
   .color--059-teen-notebook .vertical-line:after {
@@ -1700,9 +1680,8 @@ template {
       background-color: #0f0e15; }
     .color--063-soft-cherish .quote--info a {
       color: #bc117c; }
-  .color--063-soft-cherish .socks--insta svg path,
-  .color--063-soft-cherish .socks--insta svg circle,
-  .color--063-soft-cherish .socks--twit svg path {
+  .color--063-soft-cherish .socks--twit svg path,
+  .color--063-soft-cherish .socks--git svg path {
     color: #bc117c;
     fill: #bc117c; }
   .color--063-soft-cherish .vertical-line:after {
@@ -1760,9 +1739,8 @@ template {
       background-color: #2a2361; }
     .color--064-red-salvation .quote--info a {
       color: #ff2b39; }
-  .color--064-red-salvation .socks--insta svg path,
-  .color--064-red-salvation .socks--insta svg circle,
-  .color--064-red-salvation .socks--twit svg path {
+  .color--064-red-salvation .socks--twit svg path,
+  .color--064-red-salvation .socks--git svg path {
     color: #ff2b39;
     fill: #ff2b39; }
   .color--064-red-salvation .vertical-line:after {
@@ -1820,9 +1798,8 @@ template {
       background-color: #042d45; }
     .color--070-aqua-squash .quote--info a {
       color: #80d0c7; }
-  .color--070-aqua-squash .socks--insta svg path,
-  .color--070-aqua-squash .socks--insta svg circle,
-  .color--070-aqua-squash .socks--twit svg path {
+  .color--070-aqua-squash .socks--twit svg path,
+  .color--070-aqua-squash .socks--git svg path {
     color: #80d0c7;
     fill: #80d0c7; }
   .color--070-aqua-squash .vertical-line:after {
@@ -1880,9 +1857,8 @@ template {
       background-color: #e80038; }
     .color--073-love-kiss .quote--info a {
       color: #edb2a0; }
-  .color--073-love-kiss .socks--insta svg path,
-  .color--073-love-kiss .socks--insta svg circle,
-  .color--073-love-kiss .socks--twit svg path {
+  .color--073-love-kiss .socks--twit svg path,
+  .color--073-love-kiss .socks--git svg path {
     color: #edb2a0;
     fill: #edb2a0; }
   .color--073-love-kiss .vertical-line:after {
@@ -1940,9 +1916,8 @@ template {
       background-color: #030303; }
     .color--076-premium-dark .quote--info a {
       color: #7a7474; }
-  .color--076-premium-dark .socks--insta svg path,
-  .color--076-premium-dark .socks--insta svg circle,
-  .color--076-premium-dark .socks--twit svg path {
+  .color--076-premium-dark .socks--twit svg path,
+  .color--076-premium-dark .socks--git svg path {
     color: #7a7474;
     fill: #7a7474; }
   .color--076-premium-dark .vertical-line:after {
@@ -2000,9 +1975,8 @@ template {
       background-color: #651c8b; }
     .color--087-alchemy-lab .quote--info a {
       color: #24d292; }
-  .color--087-alchemy-lab .socks--insta svg path,
-  .color--087-alchemy-lab .socks--insta svg circle,
-  .color--087-alchemy-lab .socks--twit svg path {
+  .color--087-alchemy-lab .socks--twit svg path,
+  .color--087-alchemy-lab .socks--git svg path {
     color: #24d292;
     fill: #24d292; }
   .color--087-alchemy-lab .vertical-line:after {
@@ -2060,9 +2034,8 @@ template {
       background-color: #9b0b51; }
     .color--095-big-mango .quote--info a {
       color: #ffbd5b; }
-  .color--095-big-mango .socks--insta svg path,
-  .color--095-big-mango .socks--insta svg circle,
-  .color--095-big-mango .socks--twit svg path {
+  .color--095-big-mango .socks--twit svg path,
+  .color--095-big-mango .socks--git svg path {
     color: #ffbd5b;
     fill: #ffbd5b; }
   .color--095-big-mango .vertical-line:after {
@@ -2120,9 +2093,8 @@ template {
       background-color: #3d1267; }
     .color--118-dense-water .quote--info a {
       color: #15b6b0; }
-  .color--118-dense-water .socks--insta svg path,
-  .color--118-dense-water .socks--insta svg circle,
-  .color--118-dense-water .socks--twit svg path {
+  .color--118-dense-water .socks--twit svg path,
+  .color--118-dense-water .socks--git svg path {
     color: #15b6b0;
     fill: #15b6b0; }
   .color--118-dense-water .vertical-line:after {
@@ -2180,9 +2152,8 @@ template {
       background-color: #d51691; }
     .color--146-juicy-cake .quote--info a {
       color: #f9d423; }
-  .color--146-juicy-cake .socks--insta svg path,
-  .color--146-juicy-cake .socks--insta svg circle,
-  .color--146-juicy-cake .socks--twit svg path {
+  .color--146-juicy-cake .socks--twit svg path,
+  .color--146-juicy-cake .socks--git svg path {
     color: #f9d423;
     fill: #f9d423; }
   .color--146-juicy-cake .vertical-line:after {
@@ -2240,9 +2211,8 @@ template {
       background-color: #190f3e; }
     .color--179-fabled-sunset .quote--info a {
       color: #FF1361; }
-  .color--179-fabled-sunset .socks--insta svg path,
-  .color--179-fabled-sunset .socks--insta svg circle,
-  .color--179-fabled-sunset .socks--twit svg path {
+  .color--179-fabled-sunset .socks--twit svg path,
+  .color--179-fabled-sunset .socks--git svg path {
     color: #FF1361;
     fill: #FF1361; }
   .color--179-fabled-sunset .vertical-line:after {
@@ -2300,9 +2270,8 @@ template {
       background-color: #0e1c17; }
     .color--200-favre-packers .quote--info a {
       color: #099969; }
-  .color--200-favre-packers .socks--insta svg path,
-  .color--200-favre-packers .socks--insta svg circle,
-  .color--200-favre-packers .socks--twit svg path {
+  .color--200-favre-packers .socks--twit svg path,
+  .color--200-favre-packers .socks--git svg path {
     color: #099969;
     fill: #099969; }
   .color--200-favre-packers .vertical-line:after {
@@ -2360,9 +2329,8 @@ template {
       background-color: #2a0000; }
     .color--201-coke .quote--info a {
       color: #e10d0d; }
-  .color--201-coke .socks--insta svg path,
-  .color--201-coke .socks--insta svg circle,
-  .color--201-coke .socks--twit svg path {
+  .color--201-coke .socks--twit svg path,
+  .color--201-coke .socks--git svg path {
     color: #e10d0d;
     fill: #e10d0d; }
   .color--201-coke .vertical-line:after {
@@ -3203,6 +3171,16 @@ html, body {
 .socks--twit svg:hover path {
   color: #4099FF;
   fill: #4099FF; }
+
+.socks--git svg path {
+  color: #ebedee;
+  fill: #ebedee;
+  -webkit-transition: color 0.75s cubic-bezier(0.5, 0.35, 0.28, 1), fill 0.75s cubic-bezier(0.5, 0.35, 0.28, 1);
+  transition: color 0.75s cubic-bezier(0.5, 0.35, 0.28, 1), fill 0.75s cubic-bezier(0.5, 0.35, 0.28, 1); }
+
+.socks--git svg:hover path {
+  color: #4078c0;
+  fill: #4078c0; }
 
 .vertical-line:after {
   content: "";
