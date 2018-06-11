@@ -1,0 +1,31 @@
+{
+  "short_name": "By Da Way",
+  "name": "By Da Way — King McBrusselSprouts",
+  "icons": [
+    {
+      "src": "/favicon-196x196.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/mstile-310x310.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+    {
+      "src": "/favicon-196x196.png",
+      "type": "image/png",
+      "sizes": "196x196"
+    },
+    {
+      "src": "/mstile-310x310.png",
+      "type": "image/png",
+      "sizes": "310x310"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#fee140",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#fee140"
+}
