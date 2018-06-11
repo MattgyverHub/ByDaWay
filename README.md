@@ -10,6 +10,7 @@ This is a simple randomized quote website to serve up the bonkers stuff my co-wo
 - Number animation: Countup
 - CSS: Mostly custom, uses Bourbon Neat for the responsive structure, also Normalize for general misc.
 - Quotes: 100% crazy talk from the guy at work. Seriously can't make this stuff up.
+- Build process: I'm using PrePros for the build process. Small site, so no need to Gulp this.
 
 # Future Improvements
 - Would love to redo the css a bit and use variables rather than all the unique style blocks. The background is a gradient and needs a cross-fade, so I was scratching my head for a while. Just decided to hard code vars and not throw more things into the js.
