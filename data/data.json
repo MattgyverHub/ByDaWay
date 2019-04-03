@@ -1723,7 +1723,7 @@
 {
   "sprout_id": "247",
   "sprout": "The best part of computer programming is taking what you have and creating something with it.",
-  "sprout_commentary": "",
+  "sprout_commentary": "That's actually the purpose of computer programming. In related news, the the best part of cooking is making a meal and then eating it.",
   "sprout_image": "",
 	"sprout_colors": "color--017-ripe-malinka"
 },
@@ -1758,7 +1758,7 @@
 {
   "sprout_id": "252",
   "sprout": "If you don't get someone's attention. Keep trying.",
-  "sprout_commentary": "",
+  "sprout_commentary": "The storyteller has a firm grasp on the idiom 'If at first you don't succeed, try, try again.'",
   "sprout_image": "",
 	"sprout_colors": "color--028-plum-plate"
 },
@@ -1772,20 +1772,20 @@
 {
   "sprout_id": "254",
   "sprout": "Fact: Apple and Facebook can’t tell my Faternal twins apart. I have to admit I even have a hard time sometimes. Drives them crazy. One has more facial hair. The other has a Harry Potter scare but it's usually covered up.",
-  "sprout_commentary": "This was the beginning of a beautiful Twitter rant targeted at big tech's facial recognition abilities. Spelling and grammer has not been altered.",
+  "sprout_commentary": "'Fat'ernal twins? This was the beginning of a beautiful Twitter rant targeted at big tech's facial recognition abilities. Spelling and grammer have not been altered.",
   "sprout_image": "",
 	"sprout_colors": "color--034-lemon-gate"
 },
 {
   "sprout_id": "255",
   "sprout": "Fact: My twins are fat.",
-  "sprout_commentary": "Maybe because they are faternal twins? This launched into a small Twitter diversion on the accuracy of facial recognition and AI.",
+  "sprout_commentary": "Maybe because they are faternal twins?",
   "sprout_image": "",
 	"sprout_colors": "color--029-everlasting-sky"
 },
 {
   "sprout_id": "256",
-  "sprout": "My dog Cookie loves playing with golf balls over any other type of ball the best, but they are a little too small. Does anyone know if any companies make baseball size golf balls?",
+  "sprout": "My dog Cookie loves playing with golf balls, but they are a little too small. Does anyone know if any companies make baseball size golf balls?",
   "sprout_commentary": "",
   "sprout_image": "",
 	"sprout_colors": "color--035-get-me-out"
@@ -1799,7 +1799,7 @@
 },
 {
   "sprout_id": "258",
-  "sprout": "Do you bing watch TV shows and feel disgusting afterwards? Just don't do it while on vacation or you will be like 'where did my last week and half go?' And then your bad feelings feel even more bad.",
+  "sprout": "Do you binge watch TV shows and feel disgusting afterwards? Just don't do it while on vacation or you will be like 'where did my last week and half go?' And then your bad feelings feel even more bad.",
   "sprout_commentary": "",
   "sprout_image": "",
 	"sprout_colors": "color--041-happy-acid"
@@ -1821,7 +1821,7 @@
 {
   "sprout_id": "261",
   "sprout": "My dog loves eating wood. She eats the bottoms of chairs. The legs on a table. The trim on the floor and the bark off trees. She's like a giant termite.",
-  "sprout_commentary": "",
+  "sprout_commentary": "Some say dogs resemble their masters.",
   "sprout_image": "",
 	"sprout_colors": "color--059-teen-notebook"
 },
@@ -1835,35 +1835,77 @@
 {
   "sprout_id": "263",
   "sprout": "I never made a living drawing cartoons. Also never made a living selling paintings. I did do pretty well selling junk on eBay when I was jobless.",
-  "sprout_commentary": "The storyteller never made a living as an astronaut either.",
+  "sprout_commentary": "The storyteller never made a living as an astronaut either, or doctor, or lawyer, or business analyst, or investment broker...",
   "sprout_image": "",
 	"sprout_colors": "color--064-red-salvation"
 },
 {
   "sprout_id": "264",
   "sprout": "If you can make something out of nothing, you will always be in demand.",
-  "sprout_commentary": "",
+  "sprout_commentary": "Conservation of mass prohibits this.",
   "sprout_image": "",
 	"sprout_colors": "color--070-aqua-squash"
 },
 {
   "sprout_id": "265",
   "sprout": "A super power is taking a job that you don't like and transforming it into something that you do.",
-  "sprout_commentary": "",
+  "sprout_commentary": "Or one could simply leave the job for a better, more enjoyable job. Depending on the storyteller's meaning of the last word 'do,' this is either about changing one's perspective or is profoundly defeatest.",
   "sprout_image": "",
 	"sprout_colors": "color--073-love-kiss"
 },
 {
   "sprout_id": "266",
   "sprout": "I was drinking a strawberry seltzer, Tweeting away and beep... beep... beep... what's that sound? I burnt the frozen Red Barron thin crust pepperoni pizza! Good thing I bought four.",
-  "sprout_commentary": "",
+  "sprout_commentary": "Whew! The storyteller's personal dinner was saved by one of several backup pizzas.",
   "sprout_image": "",
 	"sprout_colors": "color--076-premium-dark"
 },
 {
   "sprout_id": "267",
   "sprout": "If someone can invent a frozen pepperoni pizza where the toppings don't go all over the place and each one is evenly placed on the pie, I think you would be a millionaire, maybe even a billionaire.",
-  "sprout_commentary": "",
+  "sprout_commentary": "Taken from the storyteller's Twitter feed",
   "sprout_image": "",
 	"sprout_colors": "color--087-alchemy-lab"
+},
+{
+  "sprout_id": "268",
+  "sprout": "Bananas are feel something like you should be eating when you are 100 years old and have no teeth. Mushy Gooy Cafeteria like food.",
+  "sprout_commentary": "Taken from the storyteller's Twitter feed, obviously.",
+  "sprout_image": "",
+	"sprout_colors": "color--095-big-mango"
+},
+{
+  "sprout_id": "269",
+  "sprout": "The tech company I work for contacted me when I was jobless for six months, selling junk on eBay, in my underwear. I wasn't even looking for a job. I firmly believe I have a guardian angel.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--118-dense-water"
+},
+{
+  "sprout_id": "270",
+  "sprout": "When eating fried cheese, what is the best shape? Small cylinder sticks? Rectangular sticks? Large triangles? Fried balls?",
+  "sprout_commentary": "The storyteller is a self-proclaimed cheese stick connoisseur, and has eaten cheese sticks from restaurants, fast food joints, and freezer aisles around the city. Perhaps one day he will start a food critic blog solely about cheese sticks.",
+  "sprout_image": "",
+	"sprout_colors": "color--146-juicy-cake"
+},
+{
+  "sprout_id": "271",
+  "sprout": "If you mess around with Pandora’s Box long enough, you will figure out how to open it.",
+  "sprout_commentary": "Metaphors mostly go over the storyteller's head. Pandora's Box was easy (and tempting) to open. But beware, opening it is definitely not a good thing — it contains evils and other unspeakable horrors that will be relased into the world. The storyteller might have simply said 'I figured out how to tie my shoes, we all gonna die.'",
+  "sprout_image": "",
+	"sprout_colors": "color--179-fabled-sunset"
+},
+{
+  "sprout_id": "272",
+  "sprout": "My dog and I have a lot in common. We are both blind in the same eye. She is also deaf and I have tinnitus. So when I say, 'I see said the blind man while talking to his deaf dog,' it now holds water.",
+  "sprout_commentary": "It IS true that dogs resemble their masters! And the similarities don't stop there...",
+  "sprout_image": "",
+	"sprout_colors": "color--029-everlasting-sky"
+},
+{
+  "sprout_id": "273",
+  "sprout": "Without cheese the omelette would not exist.",
+  "sprout_commentary": "Oh silly storyteller, sure it would, an omelette is simply a thin layer of eggs cooked in a pan. Here are a few non-cheese ingredients that make delicious omelettes: tomatoes, onions, peppers, rice, black beans, bacon, garlic, herbs, chicken, capers, kimchi, mushrooms, spinach...",
+  "sprout_image": "",
+	"sprout_colors": "color--029-everlasting-sky"
 }]
