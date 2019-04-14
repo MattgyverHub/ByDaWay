@@ -254,6 +254,11 @@ mcbrusselsprouts.setsprout = (function(){
               // Update the counter with the current number, change previous next numbers to correct info
               mcbrusselsprouts.sproutpager.updateCount(currentSprout);
 
+              // Update the sharing text using the actual quote
+              // Figure out how to make this work so users who paste the link get the actual text
+              $( "meta[property=og\\:description]").attr("content", mcbrusselsprouts.sproutdata.getSprout(currentSprout) );
+              $( "meta[name=description]").attr("content", mcbrusselsprouts.sproutdata.getSprout(currentSprout) );
+
               // Enable this if you want to see the previous and next numbers somewhere
               // var sproutPreviousDisplay = ( currentSprout - 1 < 1 ) ? sproutQty : currentSprout - 1 ;
               // $( "#sprout-previous" ).text( sproutPreviousDisplay );

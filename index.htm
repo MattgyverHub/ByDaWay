@@ -23,6 +23,57 @@
     <meta property="og:image:height" content="720" />
     <meta property="fb:app_id" content="472405592845590" />
 
+    <!-- For later, to customize the sharable content on demand to reflect the displayed quote -->
+    <!-- https://stackoverflow.com/questions/34281862/dynamic-facebook-open-graph-tags-possible -->
+    <script>
+      window.fbAsyncInit = function() {
+    	FB.init({
+    	  appId            : '472405592845590',
+    	  autoLogAppEvents : true,
+    	  xfbml            : true,
+    	  version          : 'v2.10'
+    	});
+    	FB.AppEvents.logPageView();
+      };
+
+      (function(d, s, id){
+    	 var js, fjs = d.getElementsByTagName(s)[0];
+    	 if (d.getElementById(id)) {return;}
+    	 js = d.createElement(s); js.id = id;
+    	 js.src = "//connect.facebook.net/en_US/sdk.js";
+    	 fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <script>
+      function shareOverrideOGMeta(overrideLink, overrideTitle, overrideDescription,
+                                 overrideImage) {
+            FB.ui({
+                method: 'share_open_graph',
+                action_type: 'og.likes',
+                action_properties: JSON.stringify({
+                    object: {
+                        'og:url': overrideLink,
+                        'og:title': overrideTitle,
+                        'og:description': overrideDescription,
+                        'og:image': overrideImage
+                    }
+                })
+            },
+            function (response) {
+            // Action after response
+            });
+        }
+    </script>
+
+    <!-- Example button to trigger share content
+      <button onclick="shareOverrideOGMeta('http://www.stackoverflow.com',
+      'Stack Overflow', 'The World\'s Largest Online Community for Coders',
+      'https://via.placeholder.com/158x158')">Share</button>
+    -->
+
+
+
     <!-- Icons -->
     <!-- http://www.favicomatic.com/ -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
@@ -310,7 +361,7 @@
       <div class="foreground--top-right">
         <div class="quote-display fade-in">
           <div class="quote-display--current" id="current-sprout">0<!-- Loaded data --></div>
-          <div class="quote-display--total" id="sprout-total">273<!-- Out of X--></div>
+          <div class="quote-display--total" id="sprout-total">278<!-- Out of X--></div>
           <div class="quote-display--random">
             <a href="#" onClick="mcbrusselsprouts.setsprout.selectSprout()" data-ga-category="Quote-Selector" data-ga-label="Random">Random</a>
           </div>

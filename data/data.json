@@ -189,7 +189,7 @@
 },
 {
   "sprout_id": "28",
-  "sprout": " I have more control in my left calf than my right calf.",
+  "sprout": "I have more control in my left calf than my right calf.",
   "sprout_commentary": "",
   "sprout_image": "",
 	"sprout_colors": "color--095-big-mango"
@@ -1807,7 +1807,7 @@
 {
   "sprout_id": "259",
   "sprout": "The mind is a vast storage unit. I grew up on a small farm. The farm buildings don't existing anymore, but I remember it just as it was in vivid detail. It's amazing what the mind can hold onto.",
-  "sprout_commentary": "Memory is the faculty of the brain by which information is encoded, stored, and retrieved when needed. Memory is vital to experiences, it is the retention of information over time for the purpose of influencing future action. Memory is not a perfect processor, and is affected by many factors. The ways by which information is encoded, stored, and retrieved can all be corrupted. The amount of attention given new stimuli can diminish the amount of information that becomes encoded for storage. Also, the storage process can become corrupted by physical damage to areas of the brain that are associated with memory storage, such as the hippocampus. Finally, the retrieval of information from long-term memory can be disrupted because of decay within long-term memory. Decay over time and brain damage all affect the accuracy and capacity of the memory.",
+  "sprout_commentary": "Memory is not a perfect processor, and is affected by many factors. The storage process can become corrupted by physical damage to areas of the brain that are associated with memory storage, such as the hippocampus. Decay over time and brain damage all affect the accuracy and capacity of the memory.",
   "sprout_image": "",
 	"sprout_colors": "color--045-loon-crest"
 },
@@ -1900,12 +1900,47 @@
   "sprout": "My dog and I have a lot in common. We are both blind in the same eye. She is also deaf and I have tinnitus. So when I say, 'I see said the blind man while talking to his deaf dog,' it now holds water.",
   "sprout_commentary": "It IS true that dogs resemble their masters! And the similarities don't stop there...",
   "sprout_image": "",
-	"sprout_colors": "color--029-everlasting-sky"
+	"sprout_colors": "color--001-warm-flame"
 },
 {
   "sprout_id": "273",
   "sprout": "Without cheese the omelette would not exist.",
   "sprout_commentary": "Oh silly storyteller, sure it would, an omelette is simply a thin layer of eggs cooked in a pan. Here are a few non-cheese ingredients that make delicious omelettes: tomatoes, onions, peppers, rice, black beans, bacon, garlic, herbs, chicken, capers, kimchi, mushrooms, spinach...",
   "sprout_image": "",
-	"sprout_colors": "color--029-everlasting-sky"
+	"sprout_colors": "color--005-young-passion"
+},
+{
+  "sprout_id": "274",
+  "sprout": "If you make a grilled cheese with a waffle maker, is it still a sandwich?",
+  "sprout_commentary": "The storyteller dropped that question on us as we were discussing whether or not a hot dog is a sandwich.",
+  "sprout_image": "",
+	"sprout_colors": "color--006-lady-lips"
+},
+{
+  "sprout_id": "275",
+  "sprout": "I ate 36 Nutter Butters and 12 Mountain Dews driving from Michigan to North Carolina, and only stopped for gas and to tinkle.",
+  "sprout_commentary": "Running the numbers on this... the storyteller ate 36 Nutter Butters (18 servings) for 5,616 calories, plus drank another 12 Mountain Dews for 2,040 calories, bringing the total calories consumed to 7,656. It took 14 hours to accomplish this feat.",
+  "sprout_image": "",
+	"sprout_colors": "color--011-dusty-grass"
+},
+{
+  "sprout_id": "276",
+  "sprout": "Raccoons are wild and vicious.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--012-tempting-azure"
+},
+{
+  "sprout_id": "277",
+  "sprout": "Did you know Fanta was made for the Nazis?",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--014-mean-fruit"
+},
+{
+  "sprout_id": "278",
+  "sprout": "The McDonald’s logo on its side looks like a 3. I never thought so because I so used to seeing it up right and not on its side.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--017-ripe-malinka"
 }]
