@@ -351,7 +351,7 @@
 {
   "sprout_id": "51",
   "sprout": "When I'm around toilet paper, I take three or four pieces and chew it. I don't actually eat it; I just can't help myself.",
-  "sprout_commentary": "The storyteller doesn't do this much anymore, which is probably for the best.",
+  "sprout_commentary": "The storyteller doesn't do this much anymore because he found chewing gum to be an acceptable alternative (go figure). He can go through a pack a day.",
   "sprout_image": "",
 	"sprout_colors": "color--063-soft-cherish"
 },
@@ -1855,7 +1855,7 @@
 },
 {
   "sprout_id": "266",
-  "sprout": "I was drinking a strawberry seltzer, Tweeting away and beep... beep... beep... what's that sound? I burnt the frozen Red Barron thin crust pepperoni pizza! Good thing I bought four.",
+  "sprout": "I was drinking a strawberry seltzer, Tweeting away and beep... beep... beep... what's that sound? I burnt the frozen Red Baron thin crust pepperoni pizza! Good thing I bought four.",
   "sprout_commentary": "Whew! The storyteller's personal dinner was saved by one of several backup pizzas.",
   "sprout_image": "",
 	"sprout_colors": "color--076-premium-dark"
@@ -1943,4 +1943,88 @@
   "sprout_commentary": "",
   "sprout_image": "",
 	"sprout_colors": "color--021-true-sunset"
+},
+{
+  "sprout_id": "279",
+  "sprout": "My dog and I created a new game. It's called bowling with Lemons.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--025-wild-apple"
+},
+{
+  "sprout_id": "280",
+  "sprout": "How do you know you've been on the computer too long? Well, is your beard itchy? If so, it's time to shave that thing.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--025-wild-apple"
+},
+{
+  "sprout_id": "281",
+  "sprout": "I only play power chords. I can't play regular barre chords.",
+  "sprout_commentary": "These are two completely different things. For all you non-musicians, power chords are not at all substitutions for barre chords.",
+  "sprout_image": "",
+	"sprout_colors": "color--026-saint-petersburg"
+},
+{
+  "sprout_id": "282",
+  "sprout": "I coined the slogan, 'Don't be a Slacker, be a StarPlayr.'",
+  "sprout_commentary": "This slogan is in reference to a Sirius radio app developed by the storyteller over 10 years ago. Once trademarks and copyrights caught up to the storyteller's app, it was quickly and unceremoniously killed by IP owners. To this day, the storyteller is trying to relive the good old days and resurrect a newer version of the app. It has revolutionary features including album art, a play button, a volume slider, channel selections, a login to Sirius, and maybe even lyrics.",
+  "sprout_image": "",
+	"sprout_colors": "color--028-plum-plate"
+},
+{
+  "sprout_id": "283",
+  "sprout": "Commodore BASIC is my first love.",
+  "sprout_commentary": "The storyteller indicates his proficiency in this dead language is only three stars out of five ⭐️⭐️⭐️☆☆, might not want to include it on a resumé.",
+  "sprout_image": "",
+	"sprout_colors": "color--029-everlasting-sky"
+},
+{
+  "sprout_id": "284",
+  "sprout": "The doctor didn’t know what it was, but I told them I smelled it on my son. They did some tests, and I was right — it was strep.",
+  "sprout_commentary": "Ah yes, the distinctive odor of strep throat, easily identifiable by its ... wait, what? The storyteller can SMELL strep throat?",
+  "sprout_image": "",
+	"sprout_colors": "color--034-lemon-gate"
+},
+{
+  "sprout_id": "285",
+  "sprout": "I guarantee there’s a song written about Pabst Blue Ribbon 🍻",
+  "sprout_commentary": "This is plausible but we're all too busy to Google it. The storyteller then asked if PBR is any good, despite being from Wisconsin nd should have been nursed on the 'Blue Ribbon.",
+  "sprout_image": "",
+	"sprout_colors": "color--035-get-me-out"
+},
+{
+  "sprout_id": "286",
+  "sprout": "I drank so much Miller Lite people asked me if I was Superman 🍺🍺🍺🍺🍺🍺",
+  "sprout_commentary": "The storyteller then went on to explain he fell hard, and was surprised he didn't die. His friends would have dumped his body in a snowbank if he died.",
+  "sprout_image": "",
+	"sprout_colors": "color--036-zeus-miracle"
+},
+{
+  "sprout_id": "287",
+  "sprout": "I like to strangle people. That’s how I deal with people.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--041-happy-acid"
+},
+{
+  "sprout_id": "288",
+  "sprout": "This tomato slice is too ripe. I can smell it.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--073-love-kiss"
+},
+{
+  "sprout_id": "289",
+  "sprout": "Da wife needs a car inspection, a new driver’s side mirror, the steering has problems, and she needs to pay the car tax. Instead of doing all that she is getting Botox.",
+  "sprout_commentary": "The car will never pass inspection until the duct-taped mirror is actually fixed by trained professionals, no matter how good the duct tape is. Let's digress — the real effect of Botox is confidence! Perhaps she won't be so hesitant maintaining the car once she has a healthy dose of neurotoxic proteins produced by the bacterium Clostridium botulinum and related species.",
+  "sprout_image": "",
+	"sprout_colors": "color--045-loon-crest"
+},
+{
+  "sprout_id": "290",
+  "sprout": "I don’t eat the couch.",
+  "sprout_commentary": "The dog eats the couch. What a strange thing to draw attention to. 'I have strange habits, but not that strange, check out my dog.'",
+  "sprout_image": "",
+	"sprout_colors": "color--049-fresh-milk"
 }]
