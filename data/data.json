@@ -189,7 +189,7 @@
 },
 {
   "sprout_id": "28",
-  "sprout": "I have more control in my left calf than my right calf.",
+  "sprout": "I have more control over my left calf than my right calf.",
   "sprout_commentary": "",
   "sprout_image": "",
 	"sprout_colors": "color--095-big-mango"
@@ -2258,4 +2258,25 @@
   "sprout_commentary": "When asked what kind of food he would be, the storyteller revealed his true spirit, much to the dismay of his gallbladder — God rest its soul.",
   "sprout_image": "",
 	"sprout_colors": "color--063-soft-cherish"
+},
+{
+  "sprout_id": "324",
+  "sprout": "Der ya go.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--064-red-salvation"
+},
+{
+  "sprout_id": "325",
+  "sprout": "We all have expiration dates.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--070-aqua-squash"
+},
+{
+  "sprout_id": "326",
+  "sprout": "I wrote to the Campbell's Soup company once and said they should open a Campbell's Soup Restaurant, to sell more soup.",
+  "sprout_commentary": "They wrote back and said they already thought of that. The stortyteller was hoping to get paid for the idea and maybe retire a millionaire.",
+  "sprout_image": "",
+	"sprout_colors": "color--073-love-kiss"
 }]
