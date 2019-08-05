@@ -2171,7 +2171,7 @@
 {
   "sprout_id": "311",
   "sprout": "If you call for a tow truck, a lot times they can’t even find you and dey charge you up the yin-yang.",
-  "sprout_commentary": "",
+  "sprout_commentary": "It's important to give them ",
   "sprout_image": "",
 	"sprout_colors": "color--022-morpheus-den"
 },
@@ -2282,8 +2282,78 @@
 },
 {
   "sprout_id": "327",
-  "sprout": "If you wait long enough, the inside of the Pop Tart candy goo gets hard.",
-  "sprout_commentary": "They wrote back and said they already thought of that. The stortyteller was hoping to get paid for the idea and maybe retire a millionaire.",
+  "sprout": "If you wait long enough, the inside of a Pop Tart — the candy goo — gets hard.",
+  "sprout_commentary": "",
   "sprout_image": "",
 	"sprout_colors": "color--076-premium-dark"
+},
+{
+  "sprout_id": "328",
+  "sprout": "Something you are really bad at may actually become one of the things you're good at.",
+  "sprout_commentary": "It feels so good to be so bad at something.",
+  "sprout_image": "",
+	"sprout_colors": "color--087-alchemy-lab"
+},
+{
+  "sprout_id": "329",
+  "sprout": "It's funny how people can look like their names; especially when we get our names, before we even know what we're going to look like.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--095-big-mango"
+},
+{
+  "sprout_id": "330",
+  "sprout": "I don't really know much about sharks; never paid much attention in geology.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--118-dense-water"
+},
+{
+  "sprout_id": "331",
+  "sprout": "Always thought the fast food chain Chick-Fil-A was was a video store named Chick-A-Flick. Afraid to visit one because I thought they were X-rated.",
+  "sprout_commentary": "The storyteller at the time was about 30 years old. At what point was he like 'Gonna get me some porn' only to realize it's a fast food chicken joint? I always wonder what other obvious things have been missed due to a casual misreading.",
+  "sprout_image": "",
+	"sprout_colors": "color--146-juicy-cake"
+},
+{
+  "sprout_id": "332",
+  "sprout": "Deaf dogs can talk, but you can't talk to a deaf dog.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--179-fabled-sunset"
+},
+{
+  "sprout_id": "333",
+  "sprout": "I have this incredible gift of annoying anyone nearby. All I have to do is open my mouth and make some noise.",
+  "sprout_commentary": "After a few seconds the person who is listening (often against their will) won't be able to handle it anymore and get irritable, and sometimes even angry.",
+  "sprout_image": "",
+	"sprout_colors": "color--200-favre-packers"
+},
+{
+  "sprout_id": "334",
+  "sprout": "What's so great about Friday? Saturday.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--200-favre-packers"
+},
+{
+  "sprout_id": "335",
+  "sprout": "You can try to keep a good man down, but he will always get up again.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--001-warm-flame"
+},
+{
+  "sprout_id": "336",
+  "sprout": "At first I thought they were shipping someone's ashes. Instead it looks like chocolate cookies. I would make it way more obvious next time.",
+  "sprout_commentary": "Silly storyteller, that's just a Roomba being placed into a USPS priority mailing box.",
+  "sprout_image": "",
+	"sprout_colors": "color--005-young-passion"
+},
+{
+  "sprout_id": "337",
+  "sprout": "The neighbor blew away my cat named Squeaky right in front of my father and I. They were drunk, stupid, and should not have been handling guns at the time.",
+  "sprout_commentary": "No shit? That same neighbor who picked up the storyteller's cat and shot it, ended up derailing a train later in life. Afterward as a construction worker, he fell off a roof and damaged his brain.",
+  "sprout_image": "",
+	"sprout_colors": "color--006-lady-lips"
 }]
