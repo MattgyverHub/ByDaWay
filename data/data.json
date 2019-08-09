@@ -2352,8 +2352,36 @@
 },
 {
   "sprout_id": "337",
-  "sprout": "The neighbor blew away my cat named Squeaky right in front of my father and I. They were drunk, stupid, and should not have been handling guns at the time.",
-  "sprout_commentary": "No shit? That same neighbor who picked up the storyteller's cat and shot it, ended up derailing a train later in life. Afterward as a construction worker, he fell off a roof and damaged his brain.",
+  "sprout": "Baby aspirin causes heart attacks in babies. And temper tantrums.",
+  "sprout_commentary": "The storyteller explained this while eating Pez candy, remarking at how it looks like baby aspirin.",
   "sprout_image": "",
 	"sprout_colors": "color--006-lady-lips"
+},
+{
+  "sprout_id": "338",
+  "sprout": "One time a barn burned down and it was hard to get anyone to believe I didn't do it... I only burned small things.",
+  "sprout_commentary": "The storyteller's parents would threaten him with boarding school every time he burned something.",
+  "sprout_image": "",
+	"sprout_colors": "color--011-dusty-grass"
+},
+{
+  "sprout_id": "339",
+  "sprout": "I keep crashing into planet Earth. One of these days, I'll get off this rock. The repairs are endless and costing me a fortune.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--012-tempting-azure"
+},
+{
+  "sprout_id": "340",
+  "sprout": "Sometimes, in order to speed things up, you have to slow things down.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--014-mean-fruit"
+},
+{
+  "sprout_id": "341",
+  "sprout": "The Greek Salad from the food truck has chicken cut to the correct proportions. Less cutting, more eating.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--017-ripe-malinka"
 }]
