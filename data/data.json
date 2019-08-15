@@ -1338,7 +1338,7 @@
 {
   "sprout_id": "192",
   "sprout": "This headache is probably from some chocolate I ate a week ago.",
-  "sprout_commentary": "The storyteller has a firm belief that something he ate over a week ago has caused his headache. The correlation & causation is hilarious to say the least.",
+  "sprout_commentary": "The storyteller has a firm belief that something he ate over a week ago has caused his headache. His theories and correlations are hilarious to say the least.",
   "sprout_image": "",
 	"sprout_colors": "color--011-dusty-grass"
 },
@@ -1498,7 +1498,7 @@
 },
 {
   "sprout_id": "215",
-  "sprout": "I got hit in the head and forgot Nutter Butters existed.",
+  "sprout": "I got hit on the head and forgot Nutter Butters existed.",
   "sprout_commentary": "One day the storyteller was enjoying a delicious Nutter Butter, them BAM! Was it all just a dream? Years later he saw the fabled snack at a gas station and realized his dream was in fact reality.",
   "sprout_image": "",
 	"sprout_colors": "color--017-ripe-malinka"
@@ -1975,7 +1975,7 @@
 {
   "sprout_id": "283",
   "sprout": "Commodore BASIC is my first love.",
-  "sprout_commentary": "The storyteller indicates his proficiency in this dead language is only three stars out of five ⭐️⭐️⭐️☆☆, might not want to include it on a resumé.",
+  "sprout_commentary": "The storyteller indicates his proficiency in this dead language is only three stars out of five ⭐️⭐️⭐️☆☆, might not want to include it on a resumé, and definitely don't post it on Twitter. Oh, too late.",
   "sprout_image": "",
 	"sprout_colors": "color--029-everlasting-sky"
 },
@@ -2282,7 +2282,7 @@
 },
 {
   "sprout_id": "327",
-  "sprout": "If you wait long enough, the inside of a Pop Tart — the candy goo — gets hard.",
+  "sprout": "If you wait long enough, the inside of a Pop Tart, the candy goo, gets hard.",
   "sprout_commentary": "",
   "sprout_image": "",
 	"sprout_colors": "color--076-premium-dark"
@@ -2423,7 +2423,23 @@
 {
   "sprout_id": "347",
   "sprout": "I can write cursive with both hands at the same time, but only the same thing. It's pretty much a parallel process.",
-  "sprout_commentary": "The storyteller can also bounce two basketballs at once, possibly as a form of exercise.",
+  "sprout_commentary": "The storyteller can also bounce two basketballs at once, describing it as a form of exercise.",
   "sprout_image": "",
 	"sprout_colors": "color--028-plum-plate"
+},
+{
+  "sprout_id": "348",
+  "sprout": "I tried to make cajun chili with rice once and I blew up the kitchen.",
+  "sprout_commentary": "Knowing full well the storyteller can barely boil water, we asked for the recipe — he said it was all the things that seemed spicy and made it up as he went. The explosion happened because he forgot he was cooking. Actually 'cooking' is a very loose term. This is the same person who owns a Hot Dog Maker presumably because cooking hot dogs is difficult.",
+  "sprout_image": "",
+	"sprout_colors": "color--029-everlasting-sky"
+},
+{
+  "sprout_id": "349",
+  "sprout": "Penniless, I got a job selling T-mobile to convenience store employees. The boss called for my Social Security number, but I said no.",
+  "sprout_commentary": "Dear storyteller, you do know your Social Security number is required to file government taxes and employee witholdings, correct? We would love to pay you, but simply can't until you stubbornly fill out this paperwork.",
+  "sprout_image": "",
+	"sprout_colors": "color--034-lemon-gate"
 }]
+
+
