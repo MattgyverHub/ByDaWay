@@ -2429,7 +2429,7 @@
 },
 {
   "sprout_id": "348",
-  "sprout": "I tried to make cajun chili with rice once and I blew up the kitchen.",
+  "sprout": "I tried to make cajun chili with rice once and blew up the kitchen.",
   "sprout_commentary": "Knowing full well the storyteller can barely boil water, we asked for the recipe — he said it was all the things that seemed spicy and made it up as he went. The explosion happened because he forgot he was cooking. Actually 'cooking' is a very loose term. This is the same person who owns a Hot Dog Maker presumably because cooking hot dogs is difficult.",
   "sprout_image": "",
 	"sprout_colors": "color--029-everlasting-sky"
@@ -2439,14 +2439,26 @@
   "sprout": "Penniless, I got a job selling T-mobile to convenience store employees. The boss called for my Social Security number, but I said no.",
   "sprout_commentary": "Dear storyteller, you do know your Social Security number is required to file government taxes and employee witholdings, correct? We would love to pay you, but simply can't until you stubbornly fill out this paperwork.",
   "sprout_image": "",
-	"sprout_colors": "color--034-lemon-gate"
+	"sprout_colors": "color--036-zeus-miracle"
 },
 {
   "sprout_id": "350",
   "sprout": "I have a replica Michael Jordan UNC championship ring. I'll have to bring it in sometime.",
-  "sprout_commentary": "This was an unsolicited comment from the storyteller with absolutely no context, completely out of the blue.",
+  "sprout_commentary": "No that's fine. Please don't bring it in. Nobody was asking, and nobody really cares. One of the most unsolicited non sequiturs the storyteller has ever dropped.",
   "sprout_image": "",
 	"sprout_colors": "color--035-get-me-out"
+},
+{
+  "sprout_id": "351",
+  "sprout": "When life gives you lemons, make a battery and charge your phone.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--034-lemon-gate"
+},
+{
+  "sprout_id": "352",
+  "sprout": "One time we killed a sheep and made hamburger meat out of it.",
+  "sprout_commentary": "Usually the storyteller would just get wool from the sheep. Snowflake and a short and stout lady by the way.",
+  "sprout_image": "",
+	"sprout_colors": "color--045-loon-crest"
 }]
-
-
