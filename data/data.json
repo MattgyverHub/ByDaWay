@@ -2517,4 +2517,18 @@
   "sprout_commentary": "Dear storyteller: you won't.",
   "sprout_image": "",
 	"sprout_colors": "color--087-alchemy-lab"
+},
+{
+  "sprout_id": "361",
+  "sprout": "I’ve been on this Earth long enough that I’ve started to blend in.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--095-big-mango"
+},
+{
+  "sprout_id": "362",
+  "sprout": "Would probably be cheaper for Tesla to make a digital horn instead of an analog one. That way it could use any sound. I'd like my car to burp.",
+  "sprout_commentary": "",
+  "sprout_image": "",
+	"sprout_colors": "color--118-dense-water"
 }]
